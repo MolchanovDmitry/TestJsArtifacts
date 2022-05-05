@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "TestJsArtifatcts"
+include ':app'
+include ':common'
+include ':module1'
