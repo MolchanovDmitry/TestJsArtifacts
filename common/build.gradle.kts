@@ -15,11 +15,7 @@ kotlin {
     }
 
     sourceSets {
-        val commonMain by getting{
-            dependencies{
-                implementation(project(":module1"))
-            }
-        }
+        val commonMain by getting
         val androidMain by getting
         val jsMain by getting
     }
